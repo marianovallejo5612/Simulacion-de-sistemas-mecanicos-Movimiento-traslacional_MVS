@@ -1,4 +1,4 @@
-function der_x = CARRO(t, x)
+function der_x = CARRO_sistemas_mecanicos(t, x)
 
 m1 = 290;    
 b1 = 1000;   

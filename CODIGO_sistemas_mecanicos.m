@@ -1,6 +1,6 @@
 T = [0 10];
 x0 = zeros(8, 1); 
-[t, x] = ode45(@CARRO, T, x0);
+[t, x] = ode45(@CARRO_sistemas_mecanicos, T, x0);
 
 figure
 subplot(2,1,1)
